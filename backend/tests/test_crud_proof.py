@@ -1,4 +1,4 @@
-# [B] ProofBench Backend - CRUD Tests
+# [B] ProofCore Backend - CRUD Tests
 # Unit tests for proof CRUD operations
 
 import pytest

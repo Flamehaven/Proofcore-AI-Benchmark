@@ -1,5 +1,5 @@
 /**
- * ProofBench Semantic Evaluator
+ * ProofCore Semantic Evaluator
  * Wraps consensus manager for proof step semantic analysis
  */
 

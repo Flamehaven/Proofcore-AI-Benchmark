@@ -1,5 +1,5 @@
 /**
- * ProofBench Sanitization Utilities
+ * ProofCore Sanitization Utilities
  * Ensures safe input processing for symbolic verification
  */
 

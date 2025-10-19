@@ -1,4 +1,4 @@
-# [>] ProofBench Backend - Anthropic Provider
+# [>] ProofCore Backend - Anthropic Provider
 # Integration with Anthropic Claude models
 
 import time

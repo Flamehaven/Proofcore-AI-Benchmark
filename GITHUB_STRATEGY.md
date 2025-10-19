@@ -1,4 +1,4 @@
-# 🌟 GitHub Star Strategy for ProofBench
+# 🌟 GitHub Star Strategy for ProofCore
 
 **Comprehensive guide to maximizing GitHub visibility and community engagement**
 
@@ -156,7 +156,7 @@ Create a distinctive logo combining:
 **Script**:
 1. **Hook** (0:00-0:15): "What if AI could verify mathematical proofs like a human mathematician?"
 2. **Problem** (0:15-0:45): Limitations of current proof checkers
-3. **Solution** (0:45-2:00): ProofBench hybrid approach demo
+3. **Solution** (0:45-2:00): ProofCore hybrid approach demo
 4. **Architecture** (2:00-3:00): Quick technical overview
 5. **Call to Action** (3:00-3:30): Star on GitHub, contribute, try it yourself
 
@@ -169,7 +169,7 @@ Create a distinctive logo combining:
 ### 1. Hacker News (Highest Priority)
 
 **Timing**: Tuesday-Thursday, 8-10 AM EST
-**Title**: "Show HN: ProofBench – Hybrid Proof Verification with Symbolic Math + LLM Reasoning"
+**Title**: "Show HN: ProofCore – Hybrid Proof Verification with Symbolic Math + LLM Reasoning"
 **First Comment**: Technical explanation, ask for feedback
 **Engagement**: Respond to all comments within 30 minutes
 
@@ -194,7 +194,7 @@ Create a distinctive logo combining:
 
 **Launch Thread**:
 ```
-1/ 🔮 Introducing ProofBench – the next generation of mathematical proof verification
+1/ 🔮 Introducing ProofCore – the next generation of mathematical proof verification
 
 Combines the precision of symbolic math with the intelligence of modern AI
 
@@ -241,7 +241,7 @@ v4.0: Backend API, user auth, collaborative editing
 
 ### 4. Dev.to / Medium
 
-**Article Title**: "Building ProofBench: How We Combined Symbolic Math with AI for Hybrid Proof Verification"
+**Article Title**: "Building ProofCore: How We Combined Symbolic Math with AI for Hybrid Proof Verification"
 
 **Outline**:
 1. The Problem with Traditional Proof Checkers
@@ -276,13 +276,13 @@ Join and share (with permission):
 - Mathematics education servers
 
 **Message Template**:
-> Hey everyone! 👋 I just open-sourced ProofBench, a hybrid proof verification system that combines symbolic math (SymPy) with LLM reasoning. Would love your feedback! [link]
+> Hey everyone! 👋 I just open-sourced ProofCore, a hybrid proof verification system that combines symbolic math (SymPy) with LLM reasoning. Would love your feedback! [link]
 
 ### 7. LinkedIn
 
 **Post**:
 ```
-🚀 Excited to announce ProofBench – an open-source hybrid proof verification system!
+🚀 Excited to announce ProofCore – an open-source hybrid proof verification system!
 
 After months of development, we're combining:
 ✓ Symbolic mathematics (SymPy)
@@ -469,7 +469,7 @@ Optimize for these search terms:
 
 <div align="center">
 
-**Ready to Launch ProofBench! 🚀**
+**Ready to Launch ProofCore! 🚀**
 
 Follow this strategy to reach 1,000+ stars in 3 months.
 

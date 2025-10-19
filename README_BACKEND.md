@@ -1,4 +1,4 @@
-# ProofBench Backend v3.7.2 - Production Ready
+# ProofCore Backend v3.7.2 - Production Ready
 
 ## Overview
 

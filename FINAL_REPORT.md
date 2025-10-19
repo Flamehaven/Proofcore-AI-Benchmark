@@ -1,4 +1,4 @@
-# 🏆 ProofBench v3.7.2 - Final Production Report
+# 🏆 ProofCore v3.7.2 - Final Production Report
 
 **Status**: ✅ **READY FOR GITHUB LAUNCH**
 
@@ -10,7 +10,7 @@
 
 ## 📊 Executive Summary
 
-ProofBench v3.7.2는 **GitHub Star를 받기 위한 모든 준비가 완료**되었습니다.
+ProofCore v3.7.2는 **GitHub Star를 받기 위한 모든 준비가 완료**되었습니다.
 
 ### 핵심 성과
 - ✅ **32개 파일 생성** (코드, 설정, 문서)
@@ -24,7 +24,7 @@ ProofBench v3.7.2는 **GitHub Star를 받기 위한 모든 준비가 완료**되
 ## 🎯 프로젝트 정체성
 
 ### 브랜딩
-**이름**: ProofBench
+**이름**: ProofCore
 **태그라인**: *"Where Mathematics Meets Meaning"*
 **컨셉**: 🔮 Hybrid Reasoning (Symbolic 70% + Semantic 30%)
 
@@ -280,7 +280,7 @@ pyodide, sympy, typescript, react, ai-safety
 ## 💡 차별화 포인트
 
 ### vs. Traditional Proof Checkers
-| Feature | ProofBench | Coq/Lean | Syntax Checkers |
+| Feature | ProofCore | Coq/Lean | Syntax Checkers |
 |---------|-----------|----------|-----------------|
 | **Symbolic** | ✅ SymPy | ✅ Native | ❌ |
 | **Semantic** | ✅ Multi-LLM | ❌ | ❌ |
@@ -372,7 +372,7 @@ pyodide, sympy, typescript, react, ai-safety
 
 <div align="center">
 
-### 🚀 ProofBench v3.7.2 Production
+### 🚀 ProofCore v3.7.2 Production
 
 **"Where Mathematics Meets Meaning"**
 

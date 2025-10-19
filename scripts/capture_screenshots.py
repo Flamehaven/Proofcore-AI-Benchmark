@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ProofBench Screenshot Capture Script
+ProofCore Screenshot Capture Script
 
 Automatically captures screenshots for README documentation.
 Requires: playwright, pillow
@@ -17,7 +17,7 @@ from playwright.async_api import async_playwright
 
 
 async def capture_screenshots():
-    """Capture screenshots of ProofBench UI"""
+    """Capture screenshots of ProofCore UI"""
 
     # Configuration
     BASE_URL = "http://localhost:5173"  # Vite default port

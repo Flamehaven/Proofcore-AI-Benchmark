@@ -1,4 +1,4 @@
-# [*] ProofBench Backend - Async Session Management
+# [*] ProofCore Backend - Async Session Management
 # Dependency injection for FastAPI endpoints
 
 from typing import AsyncGenerator

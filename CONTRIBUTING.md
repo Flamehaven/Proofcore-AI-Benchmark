@@ -1,8 +1,8 @@
-# Contributing to ProofBench
+# Contributing to ProofCore
 
-First off, thank you for considering contributing to ProofBench! 🎉
+First off, thank you for considering contributing to ProofCore! 🎉
 
-ProofBench is a **community-driven project** that aims to revolutionize mathematical proof verification through hybrid reasoning. We welcome contributions from everyone, whether you're fixing a typo, adding a feature, or improving documentation.
+ProofCore is a **community-driven project** that aims to revolutionize mathematical proof verification through hybrid reasoning. We welcome contributions from everyone, whether you're fixing a typo, adding a feature, or improving documentation.
 
 ---
 
@@ -446,7 +446,7 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 <div align="center">
 
-**Thank you for contributing to ProofBench!** 🙏
+**Thank you for contributing to ProofCore!** 🙏
 
 [⭐ Star on GitHub](https://github.com/flamehaven/proofbench) • [🐛 Report Bug](https://github.com/flamehaven/proofbench/issues) • [💡 Request Feature](https://github.com/flamehaven/proofbench/issues)
 

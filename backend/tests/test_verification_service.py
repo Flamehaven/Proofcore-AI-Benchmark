@@ -1,4 +1,4 @@
-# [B] ProofBench Backend - Verification Service Tests
+# [B] ProofCore Backend - Verification Service Tests
 # Unit tests for proof verification engine
 
 import pytest

@@ -1,4 +1,4 @@
-# [>] ProofBench Backend - OpenAI Provider
+# [>] ProofCore Backend - OpenAI Provider
 # Integration with OpenAI GPT models
 
 import time

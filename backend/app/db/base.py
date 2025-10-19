@@ -1,4 +1,4 @@
-# [*] ProofBench Backend - Database Base Configuration
+# [*] ProofCore Backend - Database Base Configuration
 # SQLAlchemy 2.0 async declarative base
 
 from sqlalchemy.ext.asyncio import AsyncEngine, create_async_engine

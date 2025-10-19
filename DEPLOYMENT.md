@@ -1,8 +1,8 @@
-# ProofBench 3.7.2 Production Deployment Guide
+# ProofCore 3.7.2 Production Deployment Guide
 
 ## Overview
 
-ProofBench is a hybrid proof verification system combining symbolic (Pyodide/SymPy) and semantic (LLM consensus) reasoning. This guide covers production deployment procedures.
+ProofCore is a hybrid proof verification system combining symbolic (Pyodide/SymPy) and semantic (LLM consensus) reasoning. This guide covers production deployment procedures.
 
 ## Architecture
 
@@ -407,4 +407,4 @@ Sentry.init({
 ---
 
 **Last Updated**: 2025-10-16
-**Maintained By**: ProofBench DevOps Team
+**Maintained By**: ProofCore DevOps Team

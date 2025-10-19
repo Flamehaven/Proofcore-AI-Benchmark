@@ -1,4 +1,4 @@
-# [B] ProofBench Backend - API Endpoint Tests
+# [B] ProofCore Backend - API Endpoint Tests
 # Integration tests for FastAPI endpoints
 
 import pytest

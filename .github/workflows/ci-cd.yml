@@ -1,4 +1,4 @@
-name: ProofBench CI/CD Pipeline
+name: ProofCore CI/CD Pipeline
 
 on:
   push:
@@ -100,7 +100,7 @@ jobs:
         with:
           file: ./coverage/coverage-final.json
           flags: unittests
-          name: proofbench-coverage
+          name: proofcore-coverage
           fail_ci_if_error: false
 
   # Job 4: Storybook Build Verification
@@ -177,7 +177,7 @@ jobs:
     if: github.ref == 'refs/heads/develop'
     environment:
       name: staging
-      url: https://staging.proofbench.your-domain.com
+      url: https://staging.proofcore.io
 
     steps:
       - name: Checkout repository
@@ -213,7 +213,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     environment:
       name: production
-      url: https://proofbench.your-domain.com
+      url: https://proofcore.io
       # CRITICAL: Manual approval enforced through GitHub environment protection rules
       # Configure at: Repository Settings > Environments > production > Required reviewers
       # Add at least 1-2 trusted reviewers who must approve before deployment

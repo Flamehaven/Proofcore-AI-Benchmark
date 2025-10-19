@@ -1,4 +1,4 @@
-# [L] ProofBench Backend - CRUD Operations
+# [L] ProofCore Backend - CRUD Operations
 # Database operations for proof entities
 
 from typing import List, Optional

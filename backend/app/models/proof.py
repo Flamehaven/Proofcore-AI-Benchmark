@@ -1,4 +1,4 @@
-# [*] ProofBench Backend - Database Models
+# [*] ProofCore Backend - Database Models
 # SQLAlchemy 2.0 ORM models for proof verification system
 
 import enum

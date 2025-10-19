@@ -1,5 +1,5 @@
 """
-ProofBench Python Package Setup
+ProofCore Python Package Setup
 For backend proof verification utilities and Pyodide integration
 """
 

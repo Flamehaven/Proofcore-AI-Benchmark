@@ -1,4 +1,4 @@
-# [>] ProofBench Backend - Google AI Provider
+# [>] ProofCore Backend - Google AI Provider
 # Integration with Google Gemini models
 
 import time

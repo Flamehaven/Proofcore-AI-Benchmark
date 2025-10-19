@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ProofBench Backend - Smoke Test Script
+ProofCore Backend - Smoke Test Script
 
 Quick smoke tests to verify backend is ready to start.
 For comprehensive testing, use: pytest tests/ --cov=app
@@ -76,7 +76,7 @@ async def test_symbolic_verifier():
 async def main():
     """Run smoke tests"""
     print("=" * 60)
-    print("ProofBench Backend - Smoke Test")
+    print("ProofCore Backend - Smoke Test")
     print("=" * 60)
     print()
     print("NOTE: This is a quick sanity check.")

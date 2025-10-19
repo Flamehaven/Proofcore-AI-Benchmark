@@ -357,7 +357,7 @@ function DashboardContent() {
       <Header>
         <LogoSection>
           <Logo>PB</Logo>
-          <AppTitle>ProofBench</AppTitle>
+          <AppTitle>ProofCore</AppTitle>
         </LogoSection>
         <HeaderActions>
           <IconButton onClick={toggleTheme} aria-label="Toggle theme">

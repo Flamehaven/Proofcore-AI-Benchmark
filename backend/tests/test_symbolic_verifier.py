@@ -1,4 +1,4 @@
-# [B] ProofBench Backend - Symbolic Verifier Tests
+# [B] ProofCore Backend - Symbolic Verifier Tests
 # Unit tests for SymPy-based symbolic verification
 
 import pytest

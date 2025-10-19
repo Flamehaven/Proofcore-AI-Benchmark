@@ -1,4 +1,4 @@
-# [=] ProofBench Backend - API Router
+# [=] ProofCore Backend - API Router
 # Aggregates all API endpoints
 
 from fastapi import APIRouter

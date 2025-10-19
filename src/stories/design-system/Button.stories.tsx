@@ -34,7 +34,7 @@ const meta: Meta<typeof Button> = {
     docs: {
       description: {
         component:
-          "The Button component provides primary and secondary actions throughout ProofBench. Icon-only buttons must include an accessible aria-label.",
+          "The Button component provides primary and secondary actions throughout ProofCore. Icon-only buttons must include an accessible aria-label.",
       },
     },
   },

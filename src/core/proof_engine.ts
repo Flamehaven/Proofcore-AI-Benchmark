@@ -1,5 +1,5 @@
 /**
- * ProofBench Proof Engine
+ * ProofCore Proof Engine
  * Orchestrates complete proof evaluation using hybrid reasoning
  */
 

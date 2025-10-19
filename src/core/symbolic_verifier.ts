@@ -1,5 +1,5 @@
 /**
- * ProofBench Symbolic Verifier
+ * ProofCore Symbolic Verifier
  * Performs algebraic verification using Pyodide/SymPy
  */
 

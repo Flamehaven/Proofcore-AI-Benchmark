@@ -1,5 +1,5 @@
 /**
- * ProofBench Justification Analyzer
+ * ProofCore Justification Analyzer
  * Analyzes logical dependency graphs and detects cycles
  */
 

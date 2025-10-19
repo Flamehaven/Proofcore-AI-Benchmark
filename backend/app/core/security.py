@@ -1,4 +1,4 @@
-# [#] ProofBench Backend - API Security
+# [#] ProofCore Backend - API Security
 # API key authentication for endpoint protection
 
 from fastapi import Security, HTTPException, status

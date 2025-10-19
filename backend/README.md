@@ -1,4 +1,4 @@
-# ProofBench Backend API
+# ProofCore Backend API
 
 **Version**: 3.7.2
 **Status**: Production-Ready Core (85% Complete)
@@ -558,7 +558,7 @@ curl "http://localhost:8000/api/v1/proofs?skip=0&limit=10" \
 
 <div align="center">
 
-## ProofBench Backend API v3.7.2
+## ProofCore Backend API v3.7.2
 
 **95% Complete** | **Production-Ready with Tests** | **S-Tier Quality Achieved**
 

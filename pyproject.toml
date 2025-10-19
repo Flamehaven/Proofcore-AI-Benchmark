@@ -3,22 +3,24 @@ requires = ["setuptools>=65.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "proofbench"
-version = "3.7.2"
-description = "Next-Generation Mathematical Reasoning & Proof Verification System"
+name = "proofcore"
+version = "1.0.0"
+description = "ProofCore - Hybrid Mathematical Proof Verification Engine"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
     {name = "Flamehaven", email = "noreply@flamehaven.com"}
 ]
-keywords = ["proof", "verification", "mathematics", "symbolic", "semantic", "hybrid"]
+keywords = ["proof", "verification", "mathematics", "symbolic", "semantic", "hybrid", "proofcore"]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Education",
 ]
 
 dependencies = [
@@ -61,13 +63,13 @@ llm = [
 ]
 
 [project.scripts]
-proofbench = "proofbench.cli:main"
+proofcore = "proofcore.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/flamehaven/proofbench"
-Documentation = "https://proofbench.readthedocs.io"
-Repository = "https://github.com/flamehaven/proofbench"
-Issues = "https://github.com/flamehaven/proofbench/issues"
+Homepage = "https://github.com/flamehaven/proofcore"
+Documentation = "https://proofcore.readthedocs.io"
+Repository = "https://github.com/flamehaven/proofcore"
+Issues = "https://github.com/flamehaven/proofcore/issues"
 
 [tool.setuptools.packages.find]
 where = ["python"]

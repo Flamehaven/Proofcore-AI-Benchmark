@@ -1,6 +1,7 @@
 {
-  "name": "proofbench-3.7.2",
-  "version": "3.7.2",
+  "name": "@proofcore/engine",
+  "version": "1.0.0",
+  "description": "ProofCore - Hybrid Mathematical Proof Verification Engine",
   "type": "module",
   "scripts": {
     "dev": "vite",

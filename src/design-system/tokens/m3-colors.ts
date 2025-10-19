@@ -29,13 +29,13 @@ export const m3LightTheme = {
   errorContainer: '#FEE2E2',
   onErrorContainer: '#7F1D1D',
 
-  // Success colors (ProofBench specific)
+  // Success colors (ProofCore specific)
   success: '#059669',
   onSuccess: '#FFFFFF',
   successContainer: '#D1FAE5',
   onSuccessContainer: '#064E3B',
 
-  // Warning colors (ProofBench specific)
+  // Warning colors (ProofCore specific)
   warning: '#D97706',
   onWarning: '#FFFFFF',
   warningContainer: '#FEF3C7',
@@ -159,7 +159,7 @@ export const elevation = {
   },
 };
 
-// ProofBench specific semantic colors
+// ProofCore specific semantic colors
 export const semanticColors = {
   // LII Score colors (gradient)
   liiExcellent: '#059669', // > 90

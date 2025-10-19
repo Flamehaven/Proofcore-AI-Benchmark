@@ -1,4 +1,4 @@
-# [B] ProofBench Backend - Proof Verification Service
+# [B] ProofCore Backend - Proof Verification Service
 # Background service for proof evaluation
 
 import asyncio

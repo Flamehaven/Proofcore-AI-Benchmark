@@ -1,4 +1,4 @@
-# [*] ProofBench Backend - Configuration Management
+# [*] ProofCore Backend - Configuration Management
 # Pydantic settings for environment variables
 
 from pydantic import Field, field_validator
@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     """
 
     # [=] Application Settings
-    APP_NAME: str = "ProofBench API"
+    APP_NAME: str = "ProofCore API"
     APP_VERSION: str = "3.7.2"
     API_V1_PREFIX: str = "/api/v1"
     DEBUG: bool = False

@@ -1,4 +1,4 @@
-# [=] ProofBench Backend - Unified LLM Adapter
+# [=] ProofCore Backend - Unified LLM Adapter
 # Manages multiple LLM providers with parallel evaluation and fallback
 
 import asyncio

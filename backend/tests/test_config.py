@@ -1,4 +1,4 @@
-# [B] ProofBench Backend - Configuration Tests
+# [B] ProofCore Backend - Configuration Tests
 # Unit tests for configuration management and validation
 
 import pytest
@@ -16,7 +16,7 @@ class TestSettings:
         settings = Settings()
 
         # Assert
-        assert settings.APP_NAME == "ProofBench API"
+        assert settings.APP_NAME == "ProofCore API"
         assert settings.APP_VERSION == "3.7.2"
         assert settings.DEBUG is False
         assert settings.SYMBOLIC_WEIGHT == 0.7

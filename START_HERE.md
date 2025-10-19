@@ -1,4 +1,4 @@
-# ProofBench Backend - Start Here
+# ProofCore Backend - Start Here
 
 ## Current Status: Ready to Launch!
 

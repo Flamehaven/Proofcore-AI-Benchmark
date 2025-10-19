@@ -1,4 +1,4 @@
-# ProofBench Backend - Quick Start Guide
+# ProofCore Backend - Quick Start Guide
 
 ## Immediate Next Steps (5 minutes)
 

@@ -1,4 +1,4 @@
-# [>] ProofBench Backend - Proof API Endpoints
+# [>] ProofCore Backend - Proof API Endpoints
 # RESTful API for proof submission and verification
 
 from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks, status

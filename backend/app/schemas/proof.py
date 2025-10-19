@@ -1,4 +1,4 @@
-# [*] ProofBench Backend - Pydantic Schemas
+# [*] ProofCore Backend - Pydantic Schemas
 # API request/response data models with validation
 
 from pydantic import BaseModel, Field, ConfigDict

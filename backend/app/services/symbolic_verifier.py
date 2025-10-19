@@ -1,4 +1,4 @@
-# [B] ProofBench Backend - Symbolic Verification Service
+# [B] ProofCore Backend - Symbolic Verification Service
 # SymPy-based equation verification
 
 import asyncio

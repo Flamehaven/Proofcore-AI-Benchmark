@@ -12,7 +12,7 @@ interface MetricCardProps {
   value: string | number;
   /** Optional tooltip text for explanation */
   tooltip?: string;
-  /** Apply color based on ProofBench metric type */
+  /** Apply color based on ProofCore metric type */
   metricType?: 'lii' | 'coherence' | 'semantic' | 'default';
   /** Numeric value for color calculation (when metricType is set) */
   numericValue?: number;

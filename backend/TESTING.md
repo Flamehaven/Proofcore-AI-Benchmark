@@ -1,4 +1,4 @@
-# ProofBench Backend - Testing Guide
+# ProofCore Backend - Testing Guide
 
 ## Overview
 

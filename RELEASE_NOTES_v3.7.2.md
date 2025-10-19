@@ -1,4 +1,4 @@
-# ProofBench v3.7.2 - Production Release
+# ProofCore v3.7.2 - Production Release
 
 **Release Date**: 2025-10-16 (Updated: 2025-10-17)
 **Status**: Production Ready (S-Tier Quality)
@@ -9,7 +9,7 @@
 
 ## Release Summary
 
-ProofBench v3.7.2 represents a complete production-ready hybrid proof verification system combining symbolic algebraic verification (Pyodide/SymPy) with semantic evaluation (LLM consensus). This release completes all 3 phases of restoration and production readiness.
+ProofCore v3.7.2 represents a complete production-ready hybrid proof verification system combining symbolic algebraic verification (Pyodide/SymPy) with semantic evaluation (LLM consensus). This release completes all 3 phases of restoration and production readiness.
 
 ## What's New in v3.7.2
 
@@ -482,7 +482,7 @@ No database migrations required. This is a frontend-only release.
 
 ## Contributors
 
-This release was made possible by the ProofBench development team and the Flamehaven AI collaboration framework.
+This release was made possible by the ProofCore development team and the Flamehaven AI collaboration framework.
 
 **Key Technologies**:
 - React team for the excellent framework

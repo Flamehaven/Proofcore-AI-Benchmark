@@ -1,5 +1,5 @@
 /**
- * ProofBench Hybrid Engine
+ * ProofCore Hybrid Engine
  * Combines symbolic verification and semantic evaluation
  */
 

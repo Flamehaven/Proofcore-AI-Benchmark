@@ -1,4 +1,4 @@
-# ProofBench Backend Implementation Progress Report
+# ProofCore Backend Implementation Progress Report
 
 **Date**: 2025-10-16
 **Version**: 3.7.2 Backend v1.0 (In Progress)
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Implementation of FastAPI backend for ProofBench v3.7.2 is underway based on the comprehensive design blueprint (`backend_api_design.md`). The core infrastructure is complete, including database models, schemas, CRUD operations, and configuration management.
+Implementation of FastAPI backend for ProofCore v3.7.2 is underway based on the comprehensive design blueprint (`backend_api_design.md`). The core infrastructure is complete, including database models, schemas, CRUD operations, and configuration management.
 
 ### Progress: 60% Complete
 
@@ -166,7 +166,7 @@ async def get_db_session() -> AsyncGenerator[AsyncSession, None]
 **Configuration Categories**:
 
 **Application**:
-- APP_NAME: "ProofBench API"
+- APP_NAME: "ProofCore API"
 - APP_VERSION: "3.7.2"
 - API_V1_PREFIX: "/api/v1"
 - DEBUG: bool

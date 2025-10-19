@@ -1,5 +1,5 @@
 /**
- * ProofBench Error Codes - Standardized verification result codes
+ * ProofCore Error Codes - Standardized verification result codes
  * Based on 3.7.1 specification with TypeScript typing
  */
 

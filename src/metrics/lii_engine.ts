@@ -1,5 +1,5 @@
 /**
- * ProofBench LII Engine (Logic Integrity Index)
+ * ProofCore LII Engine (Logic Integrity Index)
  * Computes proof quality metrics with confidence intervals
  */
 

@@ -1,5 +1,5 @@
 /**
- * ProofBench Feedback Generator
+ * ProofCore Feedback Generator
  * Generates natural language feedback for proof validation
  */
 

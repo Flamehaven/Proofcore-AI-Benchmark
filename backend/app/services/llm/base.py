@@ -1,4 +1,4 @@
-# [*] ProofBench Backend - LLM Base Classes and Data Models
+# [*] ProofCore Backend - LLM Base Classes and Data Models
 # Common interfaces and DTOs for all LLM providers
 
 from pydantic import BaseModel, Field

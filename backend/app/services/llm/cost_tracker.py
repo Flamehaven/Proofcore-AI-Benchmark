@@ -1,4 +1,4 @@
-# [$] ProofBench Backend - LLM Cost Tracking
+# [$] ProofCore Backend - LLM Cost Tracking
 # Track and calculate API costs for different LLM providers
 
 from app.services.llm.base import LLMUsage

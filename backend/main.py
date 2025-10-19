@@ -1,4 +1,4 @@
-# [*] ProofBench Backend - FastAPI Application Entry Point
+# [*] ProofCore Backend - FastAPI Application Entry Point
 # Main application setup and configuration
 
 from fastapi import FastAPI
@@ -49,7 +49,7 @@ app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
     description="""
-    ## ProofBench API - Mathematical Proof Verification System
+    ## ProofCore API - Mathematical Proof Verification System
 
     Hybrid reasoning engine combining symbolic mathematics with AI-powered semantic evaluation.
 

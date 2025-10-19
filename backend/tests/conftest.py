@@ -1,4 +1,4 @@
-# [T] ProofBench Backend - Pytest Configuration
+# [T] ProofCore Backend - Pytest Configuration
 # Shared test fixtures and configuration
 
 import pytest

@@ -271,30 +271,59 @@ Respond in JSON format with:
 """
         return prompt
 
-    def _calculate_coherence(self, semantic_scores: List[float]) -> float:
+    def _calculate_semantic_score_consistency(self, semantic_scores: List[float]) -> float:
         """
-        Calculate coherence score based on consistency of semantic scores.
+        Calculate semantic score consistency (NOT logical coherence).
 
-        Low variance = high coherence (steps are consistent)
-        High variance = low coherence (inconsistent step quality)
+        WARNING: This metric measures statistical consistency of semantic scores across steps,
+        NOT the logical coherence of the proof itself.
+
+        IMPORTANT DISTINCTION:
+        - High consistency: All semantic scores are similar (low variance)
+        - Low consistency: Semantic scores vary widely (high variance)
+        - This does NOT measure whether the proof is logically coherent
+
+        Example of misleading result:
+        - If all steps scored 20/100 (all terrible): variance=0, consistency=100
+        - But logically the proof is NOT coherent - it's consistently wrong!
+
+        Use this metric ONLY to:
+        1. Detect inconsistent LLM evaluations (data quality check)
+        2. Flag proofs where LLM confidence varies widely
+        3. NOT as a measure of proof validity or logical coherence
 
         Args:
-            semantic_scores: List of semantic scores for all steps
+            semantic_scores: List of semantic scores for all steps (0-100)
 
         Returns:
-            float: Coherence score (0-100)
+            float: Semantic score consistency metric (0-100)
+                   0 = Very inconsistent scores
+                   100 = Very consistent scores
         """
         if len(semantic_scores) <= 1:
-            return 100.0  # Perfect coherence for single step
+            # Single step = perfect consistency (no variance to measure)
+            return 100.0
 
         import statistics
         variance = statistics.variance(semantic_scores)
 
-        # Inverse relationship: low variance = high coherence
+        # Inverse relationship: low variance = high consistency
         # Normalize variance to 0-100 scale (variance typically 0-1000)
-        coherence = max(0, 100 - (variance / 10))
+        consistency = max(0, 100 - (variance / 10))
 
-        return coherence
+        return consistency
+
+    # [D] DEPRECATED: Use _calculate_semantic_score_consistency instead
+    def _calculate_coherence(self, semantic_scores: List[float]) -> float:
+        """
+        DEPRECATED: Renamed to _calculate_semantic_score_consistency()
+
+        This old name was misleading - the metric measures statistical consistency,
+        NOT logical coherence. Use the new method instead.
+
+        This wrapper exists only for backward compatibility.
+        """
+        return self._calculate_semantic_score_consistency(semantic_scores)
 
     def _generate_feedback(self, is_valid: bool, lii_score: float,
                           step_results: List[dict], proof_data: Proof) -> List[dict]:

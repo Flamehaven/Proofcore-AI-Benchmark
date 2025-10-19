@@ -2,9 +2,17 @@
 # Aggregates all API endpoints
 
 from fastapi import APIRouter
-from app.api.endpoints import proofs
+from app.api.endpoints import proofs, config
 
 api_router = APIRouter()
+
+# Include configuration endpoints with /config prefix
+# CRITICAL: This is the SINGLE SOURCE OF TRUTH for frontend configuration
+api_router.include_router(
+    config.router,
+    prefix="/config",
+    tags=["configuration"]
+)
 
 # Include proof endpoints with /proofs prefix
 api_router.include_router(

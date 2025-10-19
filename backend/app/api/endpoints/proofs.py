@@ -136,12 +136,17 @@ async def list_proofs(
     if limit > 1000:
         limit = 1000
 
-    # Get proofs and total count
-    proofs = await crud.proof.get_multi(db=db, skip=skip, limit=limit)
+    # Get actual total count of all proofs in database (separate COUNT query)
+    # This is more efficient than fetching all records just to count them
+    from sqlalchemy import func, select
+    from app.models import Proof
 
-    # For total count, we need a separate query
-    # (In production, consider caching this or using COUNT query)
-    total = len(proofs) + skip  # Simplified for now
+    count_stmt = select(func.count(Proof.id))
+    count_result = await db.execute(count_stmt)
+    total = count_result.scalar() or 0
+
+    # Get paginated proofs for this page
+    proofs = await crud.proof.get_multi(db=db, skip=skip, limit=limit)
 
     return schemas.ProofListResponse(
         total=total,

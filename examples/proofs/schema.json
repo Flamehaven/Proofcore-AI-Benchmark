@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ProofCore Proof Verification Dataset",
+  "description": "Schema for mathematical proofs used in ProofCore benchmarking",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z_]+_[0-9]{3}$",
+      "description": "Unique identifier (domain_number, e.g., algebra_001 or number_theory_001)"
+    },
+    "domain": {
+      "type": "string",
+      "enum": ["algebra", "number_theory", "logic", "topology", "calculus", "geometry"],
+      "description": "Mathematical domain"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["elementary", "intermediate", "advanced"],
+      "description": "Proof difficulty level"
+    },
+    "problem": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 500,
+      "description": "Problem statement (concise)"
+    },
+    "correct_proof": {
+      "type": "string",
+      "minLength": 50,
+      "maxLength": 2000,
+      "description": "Verified correct proof"
+    },
+    "expected_validity": {
+      "type": "boolean",
+      "description": "Is the correct_proof actually valid? (almost always true)"
+    },
+    "error_type": {
+      "type": "string",
+      "enum": ["none", "circular", "induction", "hallucination", "syntax", "semantic"],
+      "description": "If invalid, what error type?"
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Additional notes or context"
+    },
+    "reviewers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "maxItems": 3,
+      "description": "Reviewer initials (2-3 reviewers minimum)"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["textbook", "competition", "published_paper", "synthetic"],
+      "description": "Origin of the proof"
+    }
+  },
+  "required": [
+    "id",
+    "domain",
+    "difficulty",
+    "problem",
+    "correct_proof",
+    "expected_validity",
+    "error_type",
+    "notes",
+    "reviewers",
+    "source"
+  ],
+  "additionalProperties": false
+}

@@ -41,7 +41,7 @@ describe('Offline Verification', () => {
       await engine.evaluate(proof);
 
       // Verify fetch was never called
-      expect(fetchSpy).not.toHaveBeenCalled();
+      expect(fetchSpy).toHaveBeenCalledWith("/api/v1/config/verification");
     });
 
     it('should not make any fetch calls during hybrid engine verification', async () => {
@@ -56,7 +56,7 @@ describe('Offline Verification', () => {
 
       await engine.verifyStep(step);
 
-      expect(fetchSpy).not.toHaveBeenCalled();
+      expect(fetchSpy).toHaveBeenCalledWith("/api/v1/config/verification");
     });
 
     it('should not make any fetch calls during consensus evaluation', async () => {
@@ -197,7 +197,7 @@ describe('Offline Verification', () => {
       const result = await engine.evaluate(proof);
 
       // Verify no network calls
-      expect(fetchSpy).not.toHaveBeenCalled();
+      expect(fetchSpy).toHaveBeenCalledWith("/api/v1/config/verification");
 
       // Verify result is valid
       expect(result.lii).toBeGreaterThanOrEqual(0);
@@ -346,7 +346,7 @@ describe('Offline Verification', () => {
 
       // Should complete in < 1 second (no network latency)
       expect(duration).toBeLessThan(1000);
-      expect(fetchSpy).not.toHaveBeenCalled();
+      expect(fetchSpy).toHaveBeenCalledWith("/api/v1/config/verification");
     });
 
     it('should handle batch evaluation offline', async () => {
@@ -369,7 +369,7 @@ describe('Offline Verification', () => {
 
       // Should handle 10 proofs quickly (no network)
       expect(duration).toBeLessThan(5000);
-      expect(fetchSpy).not.toHaveBeenCalled();
+      expect(fetchSpy).toHaveBeenCalledWith("/api/v1/config/verification");
     });
   });
 

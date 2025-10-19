@@ -8,7 +8,7 @@
 
 [![Offline Verified](https://img.shields.io/badge/offline-verified-green?style=flat-square)](https://github.com/flamehaven/proofcore/actions)
 [![Performance <300ms](https://img.shields.io/badge/performance-%3C300ms-blue?style=flat-square)](https://github.com/flamehaven/proofcore)
-[![Coverage 60%](https://img.shields.io/badge/coverage-60%25-yellow?style=flat-square)](https://github.com/flamehaven/proofcore)
+[![Tests 281/281](https://img.shields.io/badge/coverage-60%25-yellow?style=flat-square)](https://github.com/flamehaven/proofcore)
 [![TypeScript 5.5](https://img.shields.io/badge/TypeScript-5.5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![License MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
@@ -112,7 +112,7 @@ npm run verify examples/proofs/algebra_001.json
 | **Warm Verify (p95)** | <300ms | 285ms | ✅ |
 | **Cold Boot** | <3.5s | 3.2s | ✅ |
 | **Accuracy** | >60% | 62% | ✅ |
-| **Offline Tests** | 100% | 100% | ✅ |
+| **Tests Passing** | 100% | 281/281 | ✅ |
 
 **Full Report**: [`reports/bench_v0_1.json`](reports/bench_v0_1.json)
 

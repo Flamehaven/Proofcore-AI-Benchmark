@@ -53,7 +53,7 @@
     "msw-storybook-addon": "^2.0.0",
     "openapi-fetch": "^0.15.0",
     "openapi-typescript": "^7.10.1",
-    "storybook": "^9.1.10",
+    "storybook": "^9.1.13",
     "typescript": "^5.5.3",
     "vite": "^5.3.3",
     "vitest": "^2.0.1"

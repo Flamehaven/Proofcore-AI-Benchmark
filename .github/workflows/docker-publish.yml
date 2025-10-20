@@ -6,6 +6,10 @@ on:
     tags: [ 'v*.*.*' ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch: # Manual trigger only
+
+# Temporarily disabled for v1.0.2 to resolve GitHub Actions queue issues
+# Re-enable after main workflows complete
 
 env:
   REGISTRY: ghcr.io

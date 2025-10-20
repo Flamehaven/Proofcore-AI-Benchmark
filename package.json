@@ -38,7 +38,7 @@
     "@faker-js/faker": "^8.4.1",
     "@mswjs/data": "^0.15.0",
     "@storybook/addon-a11y": "^9.1.10",
-    "@storybook/addon-docs": "^9.1.10",
+    "@storybook/addon-docs": "^9.1.13",
     "@storybook/addon-onboarding": "^9.1.10",
     "@storybook/react-vite": "^9.1.10",
     "@types/d3": "^7.4.3",

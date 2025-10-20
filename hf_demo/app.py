@@ -486,8 +486,10 @@ def create_demo():
     return demo
 
 
+# Create demo instance for HuggingFace Spaces
+demo = create_demo()
+
 if __name__ == "__main__":
-    demo = create_demo()
     demo.launch(
         server_name="0.0.0.0",
         server_port=7860,

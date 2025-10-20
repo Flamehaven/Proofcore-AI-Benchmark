@@ -109,3 +109,45 @@ docs/.doctrees/
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+
+# Internal documentation (not for public release)
+# ================================================
+RECERTIFICATION_SIDRCE_TIER_5.md
+DEPLOYMENT_AUTHORIZATION.md
+SIDRCE_V8_CERTIFICATION_REPORT.md
+QUALITY_CERTIFICATION_REPORT.md
+CRITICAL_FIX_DEPLOYMENT.md
+FINAL_DEPLOYMENT_REPORT.md
+PHASE_*.md
+STAGE_*.md
+*_PRIVATE.md
+*_INTERNAL.md
+
+# Internal architecture notes
+CLAUDE.md
+INTERNAL_ARCHITECTURE.md
+CORE_PRINCIPLES.md
+
+# Internal performance logs
+*_performance_baseline.json
+*_metrics_snapshot.txt
+internal_diagnostics_*.log
+
+# Internal test artifacts
+performance_reports/
+offline_reports/
+internal_test_results/
+
+# Development team notes
+TEAM_NOTES.md
+MEETING_NOTES.md
+TECHNICAL_DEBT.md
+DECISIONS.md
+
+# Temporary internal files
+.temp_internal/
+.work_in_progress/
+SCRATCH_*.md
+DRAFT_*.md
+TODO_*.md
+WIP_*.md

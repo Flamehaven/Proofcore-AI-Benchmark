@@ -239,7 +239,7 @@ npm run preview
 
 A production-ready interactive demo is available on Hugging Face Spaces:
 
-**URL**: https://huggingface.co/spaces/[USERNAME]/proofcore-demo (after deployment)
+**URL**: https://huggingface.co/spaces/Flamehaven/proofcore-demo
 
 **Features**:
 - Load & verify example proofs

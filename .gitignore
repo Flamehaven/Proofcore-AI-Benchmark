@@ -151,3 +151,12 @@ SCRATCH_*.md
 DRAFT_*.md
 TODO_*.md
 WIP_*.md
+
+# Backend LLM Tests (external API dependent - not for v1.0.2)
+# ============================================================
+# LLM provider tests require external APIs (OpenAI, Anthropic, etc.)
+# which are not available in CI environments and conflict with
+# the v1.0.2 backend-free offline-first architecture.
+# These will be reintroduced in v1.1.0 with optional backend support.
+backend/tests/test_llm_*.py
+backend/tests_backup/

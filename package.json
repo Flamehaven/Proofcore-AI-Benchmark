@@ -40,7 +40,7 @@
     "@storybook/addon-a11y": "^9.1.10",
     "@storybook/addon-docs": "^9.1.10",
     "@storybook/addon-onboarding": "^9.1.10",
-    "@storybook/react-vite": "^9.1.10",
+    "@storybook/react-vite": "^9.1.13",
     "@types/d3": "^7.4.3",
     "@types/lodash": "^4.17.0",
     "@types/react": "^18.3.3",

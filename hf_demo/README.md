@@ -1,3 +1,15 @@
+---
+title: ProofCore v1.0.2 Live Demo
+emoji: 🧮
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: 4.26.0
+app_file: app.py
+pinned: true
+license: mit
+---
+
 # ProofCore v1.0.2 - Live Demo
 
 **Hybrid Mathematical Proof Verification Engine**

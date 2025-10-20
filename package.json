@@ -36,7 +36,7 @@
     "@chromatic-com/storybook": "^4.1.1",
     "@emotion/babel-plugin": "^11.13.5",
     "@faker-js/faker": "^8.4.1",
-    "@mswjs/data": "^0.15.0",
+    "@mswjs/data": "^0.16.2",
     "@storybook/addon-a11y": "^9.1.10",
     "@storybook/addon-docs": "^9.1.10",
     "@storybook/addon-onboarding": "^9.1.10",

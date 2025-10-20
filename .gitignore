@@ -160,3 +160,32 @@ WIP_*.md
 # These will be reintroduced in v1.1.0 with optional backend support.
 backend/tests/test_llm_*.py
 backend/tests_backup/
+
+# Development & Internal Documentation (not for public release)
+# =============================================================
+# These files are internal development artifacts and not needed for users
+COMPLETE_CONVERSATION_ARCHIVE.md
+EXECUTION_COMPLETE_SUMMARY.md
+DRIFT_FIXES_FINAL_REPORT.md
+FINAL_DEPLOYMENT_REPORT.md
+PHASE1-3_MIGRATION_GUIDE.md
+PHASE1_COMPLETION_SUMMARY.md
+STAGE_4_DEPLOYMENT_MARKETING.md
+STEP3_PERFORMANCE_TESTING_COMPLETE.md
+STEP4_OFFLINE_GUARANTEE_COMPLETE.md
+V1.0.2_RELEASE_COMPLETE.md
+GITHUB_REPOSITORY_STRATEGY.md
+CI_REPRODUCTION_FAILURE_DIAGNOSIS.md
+GITHUB_COMMIT_CHECKLIST.md
+
+# Internal assessment & certification (not for public)
+RECERTIFICATION_SIDRCE_TIER_5.md
+FINAL_ASSESSMENT_SIDRCE.md
+DEPLOYMENT_AUTHORIZATION.md
+CHANGELOG_v1.0.1.md
+
+# Backup & temporary files
+*_BACKUP.md
+*_BACKUP.txt
+*_TEMP.md
+*_TEMP.txt
